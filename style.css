@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(163, 66, 253, 0.911);
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    display: flex;
+}
+.digit{
+    font-size: 130px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px 40px;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn-containor{
+    text-align: center;
+    margin-top: 30px;
+}
+#start{
+   background-color: hotpink;
+}
+#stop{
+background-color: red;
+}
+#reset{
+background-color: royalblue;
+}
